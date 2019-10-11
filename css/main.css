@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+
+
+/*--top navigatie--*/
+.topnav{
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 2em 3em;
+  }
+
+.topnav a{
+  color: #707070;
+  font-size: .9em;
+
+}
+.topnav a:hover{
+  text-decoration: underline;
+}
+
+/*-- einde top navigatie--*/
+
+
+
+
+/*--Begin main nav--*/
+.mainnav{
+   background-color: #009FE3;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+   justify-content: flex-end;
+   padding: 2em 3em 12em 2em;
+  }
+.mainnav a{
+  color: white;
+  font-size: 1.3em;
+}
+.mainnav a:hover{
+  text-decoration: underline;
+}
+/*--Einde main nav--*/
